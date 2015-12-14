@@ -1,0 +1,71 @@
+/* Hack Club red: #ff4b55 */
+/* Hack Club purple: #d44e74 */
+
+html, body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.panel {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 2em;
+}
+
+.panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p, .panel a {
+  color: white;
+}
+
+.section {
+  width: 100%;
+  padding: 50px 0;
+  margin: 0;
+}
+
+.banner {
+  color: white;
+  background-color: #ff4b55;
+  background-image:
+    linear-gradient(
+      to top right, 
+      #5c0005, #4a1222
+    );
+}
+
+.banner h1 {
+  font-size: 4em;
+  font-weight: 700;
+}
+
+a.button.apply {
+  font-size: 2em;
+  background: #ff4b55;
+  color: #fff;
+  border: 1px #ff4b55 solid;
+}
+
+a.button.apply:hover {
+  background-image: linear-gradient(
+      to top right, 
+      #ff4b55, #d44e74
+    );
+  color: #fff;
+  border-color: white;
+}
+
+.banner p {
+  line-height: 4em;
+}
+
+.sign-up {
+  color: white;
+  background:#5679AD; 
+}
+
+.map {
+  color: white;
+  background-color: #E67E22;
+}
+
+.footer {
+  color: #818181;
+  background: #343434;
+}
