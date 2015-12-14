@@ -5,9 +5,37 @@ html, body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.hack-club {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0.25em;
+  color: white;
+  border: 1px rgba(255, 255, 255, 0.2) solid;
+}
+
+.hack-club:hover {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 1px white solid;
+  -webkit-transition: all 700ms;
+  -moz-transition: all 700ms;
+  -o-transition: all 700ms;
+  transition: all 700ms;
+}
+
 .panel {
   background-color: rgba(255, 255, 255, 0.1);
   padding: 2em;
+  margin: 2em;
+  border: 1px rgba(255, 255, 255, 0.1) solid;
+}
+
+.panel:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px white solid;
+  -webkit-transition: all 700ms;
+  -moz-transition: all 700ms;
+  -o-transition: all 700ms;
+  transition: all 700ms;
 }
 
 .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p, .panel a {
@@ -63,6 +91,11 @@ a.button.apply:hover {
 .map {
   color: white;
   background-color: #E67E22;
+}
+
+.flex-video {
+  margin: 1em;
+
 }
 
 .footer {
