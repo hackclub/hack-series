@@ -7,7 +7,7 @@ html, body {
 
 .hack-club {
   background-color: rgba(255, 255, 255, 0.2);
-  padding: 0.25em;
+  padding: 0.1em;
   color: white;
   border: 1px rgba(255, 255, 255, 0.2) solid;
 }
@@ -31,6 +31,10 @@ html, body {
 
 .panel:hover {
   background-color: rgba(255, 255, 255, 0.2);
+  background-image: linear-gradient(
+      to top right,
+      rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)
+    );
   border: 1px white solid;
   -webkit-transition: all 700ms;
   -moz-transition: all 700ms;
@@ -59,8 +63,16 @@ html, body {
 }
 
 .banner h1 {
-  font-size: 4em;
+  font-size: 6em;
   font-weight: 700;
+}
+
+.banner p {
+  line-height: 0.75em;
+}
+
+.slogan {
+  margin: 5em 0;
 }
 
 a.button.apply {
@@ -79,10 +91,6 @@ a.button.apply:hover {
   border-color: white;
 }
 
-.banner p {
-  line-height: 4em;
-}
-
 .sign-up {
   color: white;
   background:#5679AD; 
@@ -94,8 +102,7 @@ a.button.apply:hover {
 }
 
 .flex-video {
-  margin: 1em;
-
+  margin: 2em;
 }
 
 .footer {
