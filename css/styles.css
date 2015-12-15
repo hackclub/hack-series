@@ -6,20 +6,16 @@ html, body {
 }
 
 .hack-club {
-  background-color: rgba(255, 255, 255, 0.2);
-  padding: 0.1em;
   color: white;
-  border: 1px rgba(255, 255, 255, 0.2) solid;
 }
 
 .hack-club:hover {
   color: white;
-  background-color: rgba(255, 255, 255, 0.3);
-  border: 1px white solid;
   -webkit-transition: all 700ms;
   -moz-transition: all 700ms;
   -o-transition: all 700ms;
   transition: all 700ms;
+  text-decoration: underline;
 }
 
 .panel {
@@ -54,12 +50,12 @@ html, body {
 
 .banner {
   color: white;
-  background-color: #ff4b55;
-  background-image:
-    linear-gradient(
-      to top right, 
-      #5c0005, #4a1222
-    );
+  background-color: #000;
+  background: url('https://cdn.rawgit.com/hackclub/website/master/app/assets/images/group_photo.jpg') no-repeat center 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .banner h1 {
@@ -76,6 +72,7 @@ html, body {
 }
 
 a.button.apply {
+  margin: auto 0;
   font-size: 2em;
   background: #ff4b55;
   color: #fff;
@@ -83,11 +80,8 @@ a.button.apply {
 }
 
 a.button.apply:hover {
-  background-image: linear-gradient(
-      to top right, 
-      #ff4b55, #d44e74
-    );
   color: #fff;
+  background: rgba(255, 255, 255, 0)
   border-color: white;
 }
 
@@ -102,7 +96,7 @@ a.button.apply:hover {
 }
 
 .flex-video {
-  margin: 2em;
+  margin: 0 2em;
 }
 
 .footer {
